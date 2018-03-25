@@ -1,0 +1,77 @@
+body, html {
+  height: 100%;
+}
+
+hr {
+  margin: 3px;
+}
+
+h1 {
+  font-family: georgia;
+  font-size: 50px;
+}
+
+p {
+  font-family: skia;
+  font-size: 18px;
+}
+
+h3 {
+  color: green;
+}
+
+img {
+  width: 100%;
+  margin: 35px 0 25px 0;
+  border-radius: 8%;
+}
+
+.hero-image {
+  background-image: url("../img/bgimg.jpg");
+  height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  color: black;
+  position: absolute;
+  text-align: center;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -5%);
+}
+
+.jumbotron {
+  background-color: rgba(201, 76, 76, 0);
+  text-align: center;
+}
+
+.output {
+  display: none;
+  background-color: lightyellow;
+  width: 70%;
+  border: 1px dotted gray;
+  padding: 3px 8px 3px 8px;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+#bank {
+  max-width: 500px;
+  margin: auto;
+  padding-top: 30px;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#funds {
+  max-width: 500px;
+  margin: auto;
+  display: none;
+  padding-top: 30px;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
